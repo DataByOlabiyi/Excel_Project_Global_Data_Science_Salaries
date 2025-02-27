@@ -2,7 +2,7 @@
 
 ![Global Salaries image](assets/excel_covid_salary_project1.webp)
 
-## Introduction
+# **Introduction**
 
 The COVID-19 pandemic placed the world in a very troubled scenario, leaving no industry unscathed — and data science was no exception. During this period, demand for data-driven roles increased massively as companies needed insights to navigate the uncertainty. That demand directly impacted salaries, influenced further by geography, experience level, and a massive jump in remote work.
 
@@ -17,7 +17,7 @@ This study uses a bifurcated methodology to track global data science salary tre
 
 By integrating these perspectives, this analysis gives an all-encompassing understanding of the evolution of data science salaries in this unmatched era of transformation.
 
-## Problem Statement
+# **Problem Statement**
 
 The pandemic induced significant changes in the labor market, as many organizations transitioned to remote or hybrid work models. These changes impacted compensation structures in ways that are not easily visible through raw data. Key challenges include:
 
@@ -27,7 +27,33 @@ The pandemic induced significant changes in the labor market, as many organizati
 
 Through the transformation and analysis of this data, we aim to fill the gaps and provide actionable insights for enterprises, recruiters, and professionals.
 
-## Data Overview
+
+# **Tools Used**
+
+For this project, the primary tool used for data analysis and visualization was **Microsoft Excel**. Excel was chosen for its versatility, ease of use, and powerful features for handling data transformation, cleaning, and visualization. Below is a breakdown of how Excel was utilized in this project:
+
+#### 1. Data Cleaning and Transformation
+   - **Currency Conversion**: Excel's **VLOOKUP** and **IF** functions were used to apply historical exchange rates and convert salaries to USD.
+   - **Text Manipulation**: Functions like **LEFT**, **RIGHT**, **MID**, and **CONCATENATE** were used to normalize labels and expand abbreviations.
+   - **Geographic Mapping**: Excel's **VLOOKUP** and **IF** functions were used to map countries to regions.
+   - **Role Categorization**: **IF** and **Nested IF** statements were used to group job titles into broader categories.
+   - **Remote Work Classification**: **IF** statements were used to convert remote_ratio percentages into descriptive categories (On-site, Hybrid, Remote).
+
+#### 2. Data Analysis
+   - **Pivot Tables**: Used extensively to summarize and analyze data by categories such as company size, experience level, employment type, and region.
+   - **Formulas**: Functions like **SUM**, **AVERAGE**, **COUNT**, and **SUMIF** were used to calculate key metrics such as total salaries, average salaries, and salary distributions.
+   - **Conditional Formatting**: Applied to highlight trends, outliers, and key insights in the dataset.
+
+#### 3. Visualization
+   - **Charts and Graphs**: Excel's built-in charting tools were used to create visualizations such as:
+     - **Bar Charts**: For comparing average salaries by experience level, employment type, and region.
+     - **Pie Charts**: For showing salary distribution by company size.
+     - **Line Charts**: For tracking salary trends over time and by remote work level.
+     - **Choropleth Map**: Created using Excel's **Map Chart** feature to visualize global salary disparities.
+   - **Dashboards**: A dynamic and interactive dashboard was built using Excel's **Pivot Charts**, **Slicers**, and **Filter Panes** to allow users to explore the data interactively.
+
+
+# **Data Overview**
 
 ![Global Salaries image](assets/excel_covid_salary_project2.webp)
 
@@ -43,7 +69,7 @@ The dataset contains global salary data for data science jobs, collected during 
 - **company_location, employee_residence**: Geolocation data for the company and employee.
 - **company_size**: Organization size — Small (S), Medium (M), and Large (L).
 
-## Data Cleaning/Transformation
+# **Data Cleaning/Transformation**
 
 The data was cleaned and transformed to ensure consistency and comparability. Here is a step-by-step breakdown:
 
@@ -70,7 +96,7 @@ The data was cleaned and transformed to ensure consistency and comparability. He
      - 50% → Hybrid
      - 100% → Remote
 
-### Comparison of Raw vs. Clean Data
+## **Comparison of Raw vs. Clean Data**
 
 In the raw dataset, inconsistencies in salaries and missing values made comparisons unreliable. The cleaned dataset standardized these variables, making the analysis both accurate and fair.
 
@@ -78,7 +104,7 @@ In the raw dataset, inconsistencies in salaries and missing values made comparis
 
 ![Global Salaries image](assets/excel_covid_salary_project4.webp)
 
-## Data Analysis
+# **Data Analysis**
 
 The Global Data Science Salaries Dashboard was used to analyze big trends and visualize insights. Here are the findings:
 
@@ -149,7 +175,7 @@ The Global Data Science Salaries Dashboard was used to analyze big trends and vi
 
     ![Global Salaries image](assets/excel_covid_salary_project11.webp)
 
-## Key Takeaways
+# **Key Takeaways**
 
 ### Geographic Pay Differences
 - Salaries varied greatly across regions due to differences in economic development, cost of living, and demand for data professionals.
@@ -171,7 +197,7 @@ The Global Data Science Salaries Dashboard was used to analyze big trends and vi
 ### Yearly Growth and Pandemic Effect
 - Data science salaries remained resilient and showed consistent growth during the pandemic, highlighting the critical role of data professionals in crisis management.
 
-## Overview Dashboard
+# **Overview Dashboard**
 
 ![Global Salaries image](assets/excel_covid_salary_project11.webp)
 
@@ -185,6 +211,6 @@ This interactive dashboard allows users to explore:
 - **Summarized Metrics**: High-level KPIs for quick insights.
 - **Visualizations**: Charts and graphs to highlight key trends.
 
-## Conclusion
+# **Conclusion**
 
 The COVID-19 era reshaped the global data science landscape, presenting both challenges and opportunities. This dataset and dashboard empower professionals and organizations to navigate salary trends, ensuring fairness and competitiveness in compensation.
